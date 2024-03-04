@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 50%;
+    max-width: 400px;
+}
+h1{
+    width: 100%;
+    text-align: center;
+}
+label{
+    width: 30%;
+    margin-bottom: 15px;
+    font-weight: bolder;
+}
+input {
+    width: 50%;
+    margin-bottom: 15px;
+}
+#he {
+    border: none;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(134, 196, 148);
+    color: white;
+    font-weight: bolder;
+}
+.green{
+    color: rgb(134, 196, 148);
+    width: 100%;
+    text-align: center;
+}
+.red{
+    color: red;
+    width: 100%;
+    text-align: center;
+}
